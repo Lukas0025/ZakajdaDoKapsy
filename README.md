@@ -2,7 +2,7 @@
 Neoficiální klient pro ISAS
 
 ## Komunikace se serverem ISAS
-komunikace je prováděna pomací dalšího serveru s PHP scriptem díky tomu je možné šifrovat komunikaci mezi aplikací a ISAS serverem alepoň částečne pokud klientův server nepodporuje HTTPS
+komunikace je prováděna pomocí dalšího serveru s PHP scriptem, díky kterému je možné šifrovat komunikaci mezi aplikací a ISAS serverem alepoň částečne, pokud klientův server nepodporuje HTTPS
 
 ## Wear aplikace
 součástí kódu je nedokančená aplikace pro android wear zařízené
