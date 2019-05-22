@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/header"
+    android:background="@color/header"
+    android:paddingBottom="@dimen/top_buttom_menu_padding"
+    android:paddingTop="@dimen/top_buttom_menu_padding">
+
+    <TextView
+        android:id="@+id/item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="offline"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_overview"
+            android:title="Přehled" />
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@drawable/ic_marks"
+            android:title="Známky" />
+        <item
+            android:id="@+id/nav_diameters"
+            android:icon="@drawable/ic_diameter"
+            android:title="Průměry" />
+    </group>
+
+    <item android:title="Nastavení">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Aplikace" />
+            <item
+                android:id="@+id/nav_setting_watch"
+                android:icon="@drawable/ic_watch"
+                android:title="Hodinky" />
+        </menu>
+    </item>
+
+</menu>
