@@ -29,7 +29,7 @@ public class isasCommunication extends AsyncTask<String, Void, JSONArray> {
     private final Context mContext;
     private onIsasComListener<JSONArray> mCallBack;
     private String fail = null;
-    private final String apiServer = "https://isasdokapsy.ga/api.php";
+    private final String apiServer = "https://example.com/api.php";
 
     public isasCommunication (final Context context, onIsasComListener callback) {
         mContext = context;
