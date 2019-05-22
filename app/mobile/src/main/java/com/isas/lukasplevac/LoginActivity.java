@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Finish the registration screen and return to the Login activity
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.isasdokapsy.ga/privacy.html"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://privacy.url.here"));
                 startActivity(browserIntent);
             }
         });
